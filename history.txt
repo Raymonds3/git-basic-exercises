@@ -1,0 +1,355 @@
+    1  ls downloads
+    2  ls Downloads
+    3  sudo snap install intellij-idea-community --classic
+    4  wget https://download.jetbrains.com/idea/ideaIC-2019.1-jbr11.tar.gz
+    5  tar -zxvf ideaIC-*.tar.gz
+    6  cd idea-*/bin/sh idea.sh
+    7  sh idea.sh
+    8  tar -zxvf ideaIC-*.tar.gz
+    9  cd idea-*/bin/
+   10  sh idea.sh
+   11  curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+   12  sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
+   13  sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+   14  sudo apt-get update
+   15  sudo apt-get install apt-transport-https
+   16  sudo apt-get install code
+   17  ls
+   18  pwd
+   19  ls
+   20  mkdir workspace
+   21  cd workspace
+   22  ls
+   23  ls l
+   24  ls -l
+   25  touch README.md
+   26  ls
+   27  cp README.md CHANGELOG.md
+   28  ls
+   29  touch exercise.md
+   30  mv exercise.md /tmp
+   31  cd /tmp
+   32  ls
+   33  cd /workspace
+   34  cd ~/
+   35  cd workspace
+   36  ls
+   37  cd /tmp
+   38  cd ~/
+   39  cd workspace
+   40  rm execise.md ~/tmp
+   41  rm ~/tmp/execise.md
+   42  /exercise.md
+   43  cd ~/
+   44  ls
+   45  ls -l
+   46  cd ../~/tmp/exercise.md
+   47  cd workspace
+   48  rm ../~/tmp/exercise.md
+   49  rm /tmp/exercise.md
+   50  cd /tmp
+   51  ls
+   52  cd ~/
+   53  cd workspace
+   54  touch umuzi.md recruits.md cohort.md
+   55  vim umuzi.md 
+   56  sudo apt install vim
+   57  vim umuzi.md 
+   58  vi umuzi.md
+   59  vim umuzi.md 
+   60  vim recruits.md
+   61  vim cohort.md
+   62  cat umuzi.md recruits.md cohort.md
+   63  cat umuzi.md recruits.md cohort.md >> summary.md
+   64  ls
+   65  vim summary.md
+   66  echo "The End" >> summary.md
+   67  cat summary.md
+   68  locate umuzi
+   69  locate -i umuzi
+   70  locate umuzi > search_result.md
+   71  cat search_result.md
+   72  cd ~/
+   73  cd Documents
+   74  touch pad.md
+   75  cd ~
+   76  Desktop
+   77  cd Desktop
+   78  mkdir work
+   79  cp /Document/pad.md > pad_copy.md
+   80  cp --help
+   81  cp ~/Documents/pad.md pad_copy.md
+   82  cp ~/
+   83  cd Desktop
+   84  locate updatedb
+   85  cd ~/
+   86  locate pad_copy.md
+   87  ls |grep \.pdf
+   88  ls locate \.pdf
+   89  ls locate .pdf
+   90  locate .pdf
+   91  locate .pdf >> searchpdf.txt
+   92  vim searchpdf.txt
+   93  find . -newer file "2020-01-15"
+   94  find . -newer file "2020-01-14"
+   95  find . -newer file
+   96  find . -maxdepth -newermt "2020-01-15"
+   97  find . -maxdepth 1 -newermt "2020-01-15"
+   98  nano
+   99  cat my_bio.md
+  100  mkdir my_files
+  101  mv my_bio.md my_files
+  102  cd my_files
+  103  ls
+  104  cd ~
+  105  sudo apt snapd
+  106  sudo snapd
+  107  sudo apt install snapd
+  108  sudo snap install notepad-plus-plus
+  109  /snap/bin/notepad-plus-plus
+  110  find .pdf
+  111  find . -.pdf
+  112  find . -name .pdf
+  113  cd .Downloads
+  114  cd Downloads
+  115  find . -name .pdf
+  116  cd ~
+  117  find . -type f -name "*.php"
+  118  find . -type f -name "*.pdf"
+  119  find iname '*.pdf'
+  120  find -iname '*.pdf'
+  121  find -iname '*.pdf' >> result
+  122  cd result
+  123  mkdir result
+  124  rm result
+  125  ls
+  126  mkdir result
+  127  find . -type f -name "*.pdf" >> result
+  128  find . -type f -name "*.pdf" > result
+  129  cp find . -type f -name "*.pdf" > result
+  130  cp find . -type f -name "*.pdf" result
+  131  cp find -iname '*.pf' result
+  132  cp --help
+  133  cp find -iname '*.pf' >> result
+  134  find -iname '*.pf' -exec cp {} result
+  135  find -iname '*.pdf' -exec cp {} result
+  136  find -iname '*.pdf' -exec cp {.pdf} result
+  137  find -iname '*.pdf' -exec cp .pdf result
+  138  find -iname '*.pdf' -exec cp '*.pdf' result
+  139  find -iname '*.pdf' -exec cp '*.pdf'
+  140  find -iname '*.pdf'
+  141  find -iname '*.pdf' -exec cp {} /home /recruit \;
+  142  find -iname '*.pdf' -exec cp {} /home /recruit/~ \;
+  143  find -iname '*.pdf' -exec cp {} /home /recruit/result \;
+  144  find -iname '*.pdf' -exec cp {} /home /recruit /result \;
+  145  find -iname '*.pdf' -exec cp {} /home /recruit /Desktop \;
+  146  find -iname '*.pdf' -exec cp {} /home/recruit/Desktop \;
+  147  cd Desktop
+  148  ls
+  149  mkdir Basic Linux Challenges
+  150  cd Basic Linux Challenges
+  151  rm Basic
+  152  rm -rf Basic
+  153  mkdir Basic_Linux_Challenges
+  154  cd Basic_Linux_Challenges
+  155  touch TASK_1_BASIC_TASK
+  156  touch TASK_2_ABSOLUTE_AND_RELATIVE_PATHS TASK_3_CAT_COMMANDS TASK_4_LOCATE_COMMAND TASK_5_LOCATE_COMMAND_CONT.. TASK_6_FIND_COMMAND TASK_7_TEXT_EDITOR 
+  157  ls
+  158  vim TASK_1_BASIC_TASK
+  159  vim Task_2
+  160  ls
+  161  vim TASK_2_ABSOLUTE_AND_RELATIVE_PATHS
+  162  vim TASK_3_CAT_COMMANDS
+  163  vim TASK_4_LOCATE_COMMAND
+  164  vim TASK_5_LOCATE_COMMAND_CONT..
+  165  vim TASK_6_FIND_COMMAND
+  166  vim TASK_7_TEXT_EDITOR
+  167  git init
+  168  git add TASK_1_BASIC_TASK                   TASK_5_LOCATE_COMMAND_CONT..
+  169  TASK_2_ABSOLUTE_AND_RELATIVE_PATHS  TASK_6_FIND_COMMAND
+  170  TASK_3_CAT_COMMANDS                 TASK_7_TEXT_EDITOR
+  171  git add TASK_1_BASIC_TASK
+  172  git add TASK_2_ABSOLUTE_AND_RELATIVE_PATHS TASK_3_CAT_COMMANDS TASK_4_LOCATE_COMMAND TASK_5_LOCATE_COMMAND_CONT.. TASK_6_FIND_COMMAND TASK_7_TEXT_EDITOR
+  173  git status
+  174  git commit -m "First commit"
+  175  git config --global user.email "raymonds338@gmail.com"
+  176  git config --global user.name "Raymonds3"
+  177  git commit -m "First commit"
+  178  git remote add origin git@github.com:Raymonds3/BASIC-LINUX-CHALLENGES.git
+  179  git push -u origin master
+  180  git push
+  181  git push --set-upstream origin master
+  182  git remote add origin git@github.com:Raymonds3/BASIC-LINUX-CHALLENGES.git
+  183  git push
+  184  git push -u origin master
+  185  git push
+  186  git remote add origin git@github.com:Raymonds3/BASIC-LINUX-CHALLENGES.git
+  187  git remote set-url origin git@github.com:Raymonds3/BASIC-LINUX-CHALLENGES.git
+  188  git push
+  189  git remote set-url origin https://github.com/Raymonds3/BASIC-LINUX-CHALLENGES.git
+  190  git push
+  191  git pull origin master
+  192  git clone git@github.com:Raymonds3/BASIC-LINUX-CHALLENGES.git
+  193  git clone https://github.com/Raymonds3/BASIC-LINUX-CHALLENGES.git
+  194  ls
+  195  mv TASK_1_BASIC_TASK BASIC-LINUX-CHALLENGES
+  196  ls
+  197  mv TASK_2_ABSOLUTE_AND_RELATIVE_PATHS BASIC-LINUX-CHALLENGES
+  198  ls
+  199  mv TASK_3_CAT_COMMANDS BASIC-LINUX-CHALLENGES
+  200  ls
+  201  mv TASK_4_LOCATE_COMMAND BASIC-LINUX-CHALLENGES
+  202  ls
+  203  mv TASK_5_LOCATE_COMMAND_CONT.. BASIC-LINUX-CHALLENGES
+  204  ls
+  205  mv TASK_6_FIND_COMMAND BASIC-LINUX-CHALLENGES
+  206  ls
+  207  mv TASK_7_TEXT_EDITOR BASIC-LINUX-CHALLENGES
+  208  ls
+  209  cd 
+  210  cd Basic_Linux_Challenges
+  211  cd BASIC-LINUX-CHALLENGES
+  212  ls 
+  213  cd Desktop
+  214  cd Basic_Linux_Challenges
+  215  cd BASIC-LINUX-CHALLENGES
+  216  gitadd *
+  217  git init
+  218  git add *
+  219  git status
+  220  git commit -m "first commit"
+  221  gitpush
+  222  git push -u origin master
+  223  cd Desktop
+  224  mkdir git-basic-exercises
+  225  cd git-basic-exercises
+  226  ls -a
+  227  git init
+  228  ls -a
+  229  git status
+  230  touch README.md
+  231  git status
+  232  ls -a
+  233  git log
+  234  git add README.md
+  235  git status
+  236  git commit -m "initial commit"
+  237  git log
+  238  q
+  239  sudo snap install q
+  240  q
+  241  sudo snap install q # version 1.6.3-1
+  242  sudo snap install
+  243  nano README.md
+  244  cat README.md
+  245  git status
+  246  git stats
+  247  git add README.md 
+  248  git commit -m "second commit"
+  249  git status
+  250  git commit -m "third commit"
+  251  git log
+  252  q
+  253  git status
+  254  nano README.md
+  255  git add README.md
+  256  git commit -m "third commit"
+  257  git log
+  258  q
+  259  git checkout 85c6093b6d5c4a5878aa74d632276c0fe48e458b
+  260  cat README.md
+  261  git checkout master
+  262  cat README.md
+  263  git branch
+  264  git branch milkshake-flavours
+  265  git branch *
+  266  git branch
+  267  cd milkshake-flavours
+  268  git checkout milkshake-flavours
+  269  git branch
+  270  nano milkshakes.md
+  271  git status
+  272  git add milkshakes.md
+  273  git commit -m "added initial flavours"
+  274  git log
+  275  git checkout master
+  276  git branch history
+  277  git checkout history
+  278  git log
+  279  history > history.txt
+  280  git add history.txt
+  281  git commit -m "added history"
+  282  git log
+  283  git checkout milkshake
+  284  git checkout milkshake-flavours
+  285  git log
+  286  nano README.md
+  287  git add
+  288  git add README.md
+  289  git commit -m "random readme changes"
+  290  git checkout history
+  291  cat README.md
+  292  rm README.md
+  293  echo "booya" > README.md
+  294  rm README.md
+  295  echo "booya" > README.md
+  296  rm README.md echo "booya" > README.md
+  297  git add README.md
+  298  git commit -m "rewrote readme"
+  299  git checkout master
+  300  git checkout
+  301  ls
+  302  git log
+  303  git checkout milkshake-flavours
+  304  ls
+  305  git log
+  306  git checkout history
+  307  ls
+  308  git log
+  309  git reset
+  310  git branch
+  311  cd ~
+  312  rm -rf git-basic-exercises
+  313  ls
+  314  mkdir git-basic-exercises
+  315  cd git-basic-exercises
+  316  git init
+  317  touch README.md
+  318  git status
+  319  git log
+  320  git add README.md
+  321  git status
+  322  git unstage README.md
+  323  git --help
+  324  git commit -m "initial commit"
+  325  git log
+  326  nano README.md
+  327  cat README.md
+  328  git status
+  329  git commit -m "second commit"
+  330  git add README.md
+  331  git commit -m "second commit"
+  332  nano README.md
+  333  git add README.md
+  334  git commit -m "third commit"
+  335  git log
+  336  q
+  337  git checkout dcc980ab6d90b385fd058f2f25e2a7b665999c23
+  338  cat README.md
+  339  git checkout master
+  340  cat README.md
+  341  git branch
+  342  git branch milkshake-flavours
+  343  git branch
+  344  git checkout milkshake-flavours
+  345  git branch
+  346  nano milkshakes.md
+  347  git status
+  348  git add milkshakes.md
+  349  git commit -m "added initial flavours"
+  350  git log
+  351  git checkout master
+  352  git branch history
+  353  git checkout history
+  354  git log
+  355  history > history.txt
